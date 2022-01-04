@@ -44,3 +44,37 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+h2{
+    font-size: 40px;
+}
+
+.sample-exp{
+    width: 40%;
+    margin-right: 5%;
+    text-align: justify;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+#full{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image:linear-gradient(green,yellow);
+    border-image-slice: 1;
+}
+.exprience{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+}
